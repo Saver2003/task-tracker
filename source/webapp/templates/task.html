@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{{task.title}}</h1>
+    <p>{{task.description}}</p>
+    <p>{{task.task_type}}</p>
+    <p>{{task.status}}</p>
+    <hr/>
+    <p><a href="{% url 'index' %}">Back to main page</a></p>
+    
+{% endblock %}

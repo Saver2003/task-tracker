@@ -1,0 +1,110 @@
+[
+{
+  "model": "webapp.task",
+  "pk": 1,
+  "fields": {
+    "title": "New task",
+    "description": "a;lasjdf sdsfasd sdczvxc, sdw",
+    "status": 1,
+    "task_type": 1,
+    "created_at": "2022-01-04T08:42:08.746Z",
+    "updated_at": "2022-01-04T08:42:53.815Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 2,
+  "fields": {
+    "title": "any task",
+    "description": "asdf asdf",
+    "status": 2,
+    "task_type": 2,
+    "created_at": "2022-01-04T08:44:47.483Z",
+    "updated_at": "2022-01-04T08:44:47.483Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 3,
+  "fields": {
+    "title": "asdasdf",
+    "description": "asdadsf",
+    "status": 3,
+    "task_type": 3,
+    "created_at": "2022-01-04T08:45:07.382Z",
+    "updated_at": "2022-01-04T08:45:07.382Z"
+  }
+},
+{
+  "model": "webapp.task",
+  "pk": 4,
+  "fields": {
+    "title": "Task 4",
+    "description": "Some long description",
+    "status": 1,
+    "task_type": 1,
+    "created_at": "2022-01-07T04:02:47.831Z",
+    "updated_at": "2022-01-07T04:02:47.831Z"
+  }
+},
+{
+  "model": "webapp.status",
+  "pk": 1,
+  "fields": {
+    "title": "New"
+  }
+},
+{
+  "model": "webapp.status",
+  "pk": 2,
+  "fields": {
+    "title": "In progress"
+  }
+},
+{
+  "model": "webapp.status",
+  "pk": 3,
+  "fields": {
+    "title": "Done"
+  }
+},
+{
+  "model": "webapp.tasktype",
+  "pk": 1,
+  "fields": {
+    "title": "Task"
+  }
+},
+{
+  "model": "webapp.tasktype",
+  "pk": 2,
+  "fields": {
+    "title": "Bug"
+  }
+},
+{
+  "model": "webapp.tasktype",
+  "pk": 3,
+  "fields": {
+    "title": "Enhancement"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$9AUHih8TCrsp$r7iH1/LzlKvj3UPvs64S49DAgNypiLOSrs4jvg3h5Y8=",
+    "last_login": "2022-01-07T03:59:48.870Z",
+    "is_superuser": true,
+    "username": "alex",
+    "first_name": "",
+    "last_name": "",
+    "email": "saver2003@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-01-04T08:20:51.044Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
